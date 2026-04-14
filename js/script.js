@@ -12,6 +12,18 @@ document.addEventListener('DOMContentLoaded', () => {
                 icon.classList.toggle('fa-times');
             }
         });
+
+        // Close menu when clicking a link
+        navLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                const icon = mobileToggle.querySelector('i');
+                if (icon) {
+                    icon.classList.add('fa-bars');
+                    icon.classList.remove('fa-times');
+                }
+            });
+        });
     }
 
     // Scroll Header Styling
