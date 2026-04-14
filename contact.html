@@ -16,7 +16,7 @@
         .contact-container {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 50px;
+            gap: 30px;
         }
         .info-card {
             background-color: white;
@@ -62,6 +62,10 @@
         @media (max-width: 992px) {
             .contact-container {
                 grid-template-columns: 1fr;
+                gap: 30px;
+            }
+            .info-card {
+                padding: 30px 20px;
             }
         }
     </style>
@@ -98,7 +102,7 @@
     <!-- Page Header -->
     <section class="section-padding" style="background-color: var(--primary-color); color: white; padding: 60px 0;">
         <div class="container">
-            <h1 style="color: white; font-size: 3rem;">Contact Us</h1>
+            <h1 class="highlight-heading" style="color: white; font-size: 3rem;">Contact Us</h1>
             <p style="opacity: 0.8; font-size: 1.2rem;">We are here to answer your questions and welcome you to our campus.</p>
         </div>
     </section>
@@ -109,7 +113,7 @@
             <div class="contact-container">
                 <!-- Contact Info -->
                 <div class="info-card">
-                    <h2 style="margin-bottom: 30px;">Reach Out to Us</h2>
+                    <h2 class="highlight-heading" style="margin-bottom: 30px;">Reach Out to Us</h2>
                     
                     <div class="info-item">
                         <i class="fas fa-map-marker-alt"></i>

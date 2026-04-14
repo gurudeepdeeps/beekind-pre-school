@@ -30,11 +30,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const header = document.querySelector('header');
     window.addEventListener('scroll', () => {
         if (window.scrollY > 50) {
-            header.style.height = '70px';
-            header.style.boxShadow = '0 5px 20px rgba(0,0,0,0.1)';
+            header.classList.add('header-scrolled');
         } else {
-            header.style.height = '90px';
-            header.style.boxShadow = '0 10px 30px rgba(0,0,0,0.05)';
+            header.classList.remove('header-scrolled');
         }
     });
 
