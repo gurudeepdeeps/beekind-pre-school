@@ -86,8 +86,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }, observerOptions);
 
     // Initial setup for reveal elements
-    document.querySelectorAll('section').forEach(el => {
-        el.classList.add('reveal');
+    // We avoid revealing the entire section to prevent blank voids before scroll
+    document.querySelectorAll('.reveal').forEach(el => {
         revealObserver.observe(el);
     });
 
