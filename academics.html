@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academics | Beekind Pre School</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <style>
+        .program-block {
+            margin-bottom: 80px;
+            background: white;
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            box-shadow: var(--shadow-soft);
+            display: flex;
+            align-items: center;
+        }
+        .program-img {
+            flex: 1;
+            height: 400px;
+            background-size: cover;
+            background-position: center;
+        }
+        .program-content {
+            flex: 1;
+            padding: 60px;
+        }
+        @media (max-width: 992px) {
+            .program-block {
+                flex-direction: column;
+            }
+            .program-img {
+                width: 100%;
+                height: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Announcement Bar -->
+    <div class="announcement-bar">
+        <div class="announcement-text">
+            ✨ Admissions Open for 2026–27! Join Beekind Pre School today. 🎒 Early Bird registrations closing soon! 🖌️ Enroll your child for a brighter future. ✨
+        </div>
+    </div>
+    <header>
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="assets/logo.svg" alt="Beekind Pre School Logo">
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="academics.html" class="active">Academics</a></li>
+                <li><a href="facilities.html">Facilities</a></li>
+                <li><a href="admissions.html">Admissions</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="mobile-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="section-padding bg-light" style="padding-top: 60px;">
+        <div class="container">
+            <h1 style="font-size: 3rem; margin-bottom: 20px;">Academic Programs</h1>
+            <p style="font-size: 1.2rem; color: var(--text-light); max-width: 800px; margin-bottom: 50px;">A comprehensive and structured curriculum designed for modern early childhood excellence.</p>
+
+            <!-- Playgroup -->
+            <div id="playgroup" class="program-block">
+                <div class="program-img" style="background-image: url('https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=800&q=80');"></div>
+                <div class="program-content">
+                    <span class="badge" style="background-color: var(--primary-color);">Age: 1.5 - 2.5 Years</span>
+                    <h2>Playgroup Program</h2>
+                    <p style="margin-bottom: 25px;">Our Playgroup program focuses on smooth transition from home to school. We emphasize sensory exploration, social interaction, and motor skill development through joyful activities.</p>
+                    <ul class="footer-links" style="color: var(--text-color);">
+                        <li><i class="fas fa-check-circle" style="color: var(--accent-color); margin-right: 10px;"></i> Sensory-based learning</li>
+                        <li><i class="fas fa-check-circle" style="color: var(--accent-color); margin-right: 10px;"></i> Social & emotional bonding</li>
+                        <li><i class="fas fa-check-circle" style="color: var(--accent-color); margin-right: 10px;"></i> Introduction to basic vocabulary</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Nursery -->
+            <div id="nursery" class="program-block" style="flex-direction: row-reverse;">
+                <div class="program-img" style="background-image: url('https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=800&q=80');"></div>
+                <div class="program-content">
+                    <span class="badge" style="background-color: var(--primary-color);">Age: 2.5 - 3.5 Years</span>
+                    <h2>Nursery Program</h2>
+                    <p style="margin-bottom: 25px;">The Nursery program introduces structured learning in a playful environment. We focus on language development, pre-math skills, and creative expression through music and arts.</p>
+                    <ul class="footer-links" style="color: var(--text-color);">
+                        <li><i class="fas fa-check-circle" style="color: var(--accent-color); margin-right: 10px;"></i> Phonics & language foundation</li>
+                        <li><i class="fas fa-check-circle" style="color: var(--accent-color); margin-right: 10px;"></i> Numbers & logical reasoning</li>
+                        <li><i class="fas fa-check-circle" style="color: var(--accent-color); margin-right: 10px;"></i> Creative arts & performance</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- LKG -->
+            <div id="lkg" class="program-block">
+                <div class="program-img" style="background-image: url('https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=800&q=80');"></div>
+                <div class="program-content">
+                    <span class="badge" style="background-color: var(--primary-color);">Age: 3.5 - 4.5 Years</span>
+                    <h2>Lower KG (LKG)</h2>
+                    <p style="margin-bottom: 25px;">Our LKG curriculum is designed to build academic confidence. Children begin reading, writing, and understanding complex social concepts through collaborative projects.</p>
+                    <ul class="footer-links" style="color: var(--text-color);">
+                        <li><i class="fas fa-check-circle" style="color: var(--accent-color); margin-right: 10px;"></i> Early literacy & writing skills</li>
+                        <li><i class="fas fa-check-circle" style="color: var(--accent-color); margin-right: 10px;"></i> Environmental studies</li>
+                        <li><i class="fas fa-check-circle" style="color: var(--accent-color); margin-right: 10px;"></i> Structured sports & fitness</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- UKG -->
+            <div id="ukg" class="program-block" style="flex-direction: row-reverse;">
+                <div class="program-img" style="background-image: url('https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=800&q=80');"></div>
+                <div class="program-content">
+                    <span class="badge" style="background-color: var(--primary-color);">Age: 4.5 - 5.5 Years</span>
+                    <h2>Upper KG (UKG)</h2>
+                    <p style="margin-bottom: 25px;">The final year of preschool prepares children for the transition to primary school. We focus on advanced literacy, comprehensive math, and leadership qualities.</p>
+                    <ul class="footer-links" style="color: var(--text-color);">
+                        <li><i class="fas fa-check-circle" style="color: var(--accent-color); margin-right: 10px;"></i> Advanced reading & comprehension</li>
+                        <li><i class="fas fa-check-circle" style="color: var(--accent-color); margin-right: 10px;"></i> Primary school readiness modules</li>
+                        <li><i class="fas fa-check-circle" style="color: var(--accent-color); margin-right: 10px;"></i> Public speaking & presentation</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <img src="assets/logo.svg" alt="Beekind Logo" style="height: 50px; margin-bottom: 20px; filter: brightness(0) invert(1);">
+                    <p style="opacity: 0.7; font-size: 0.9rem;">Building strong academic foundations and creativity in young learners since 2015.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="academics.html">Academics</a></li>
+                        <li><a href="facilities.html">Facilities</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Programs</h4>
+                    <ul class="footer-links">
+                        <li><a href="academics.html#playgroup">Playgroup</a></li>
+                        <li><a href="academics.html#nursery">Nursery</a></li>
+                        <li><a href="academics.html#lkg">LKG</a></li>
+                        <li><a href="academics.html#ukg">UKG</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <ul style="opacity: 0.7; font-size: 0.9rem;">
+                        <li style="margin-bottom: 10px;"><i class="fas fa-phone" style="margin-right: 10px; color: var(--accent-color);"></i> +1 (234) 567-890</li>
+                        <li style="margin-bottom: 10px;"><i class="fas fa-envelope" style="margin-right: 10px; color: var(--accent-color);"></i> info@beekind.com</li>
+                        <li><i class="fas fa-map-marker-alt" style="margin-right: 10px; color: var(--accent-color);"></i> Academic Lane, City</li>
+                    </ul>
+                    <div style="display: flex; gap: 15px; margin-top: 20px;">
+                        <a href="#" style="font-size: 1.2rem; color: white;"><i class="fab fa-facebook"></i></a>
+                        <a href="#" style="font-size: 1.2rem; color: white;"><i class="fab fa-instagram"></i></a>
+                        <a href="#" style="font-size: 1.2rem; color: white;"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2026 Beekind Pre School. All Rights Reserved. | Website designed & developed by <a href="https://xpensivemedia.vercel.app" target="_blank" style="color: var(--accent-color); font-weight: 600;">Xpensive Media</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

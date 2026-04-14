@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admissions | Beekind Pre School</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <style>
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: var(--primary-color);
+        }
+        .form-group input, .form-group select, .form-group textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: var(--border-radius);
+            font-family: inherit;
+        }
+        .form-group input:focus {
+            outline: none;
+            border-color: var(--primary-color);
+        }
+    </style>
+</head>
+<body>
+    <!-- Announcement Bar -->
+    <div class="announcement-bar">
+        <div class="announcement-text">
+            ✨ Admissions Open for 2026–27! Join Beekind Pre School today. 🎒 Early Bird registrations closing soon! 🖌️ Enroll your child for a brighter future. ✨
+        </div>
+    </div>
+    <header>
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="assets/logo.svg" alt="Beekind Pre School Logo">
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="academics.html">Academics</a></li>
+                <li><a href="facilities.html">Facilities</a></li>
+                <li><a href="admissions.html" class="active">Admissions</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="mobile-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="section-padding bg-light" style="padding-top: 60px;">
+        <div class="container">
+            <div style="display: flex; gap: 80px; flex-wrap: wrap;">
+                <div style="flex: 1; min-width: 300px;">
+                    <h1 style="font-size: 3rem; margin-bottom: 20px;">Admissions Enquiry</h1>
+                    <p style="font-size: 1.1rem; color: var(--text-light); margin-bottom: 40px;">Begin your child's journey at Beekind. Please fill out the form, and our admissions team will contact you shortly.</p>
+                    
+                    <div class="card" style="margin-bottom: 30px; border-left: 5px solid var(--accent-color);">
+                        <h4>Admission Process</h4>
+                        <ol style="margin-top: 15px; padding-left: 20px;">
+                            <li style="margin-bottom: 10px;">Fill the online enquiry form.</li>
+                            <li style="margin-bottom: 10px;">Schedule a campus visit.</li>
+                            <li style="margin-bottom: 10px;">Interaction with the Principal.</li>
+                            <li>Formal registration and enrollment.</li>
+                        </ol>
+                    </div>
+                </div>
+                
+                <div style="flex: 1.5; min-width: 400px;">
+                    <div class="card" style="padding: 50px;">
+                        <form action="#">
+                            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                                <div class="form-group">
+                                    <label>Parent Name</label>
+                                    <input type="text" placeholder="Full Name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Phone Number</label>
+                                    <input type="tel" placeholder="Mobile Number" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label>Email Address</label>
+                                <input type="email" placeholder="Email ID" required>
+                            </div>
+                            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                                <div class="form-group">
+                                    <label>Child's Age</label>
+                                    <input type="number" placeholder="Years" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Program Applying For</label>
+                                    <select required>
+                                        <option value="">Select Program</option>
+                                        <option value="playgroup">Playgroup</option>
+                                        <option value="nursery">Nursery</option>
+                                        <option value="lkg">LKG</option>
+                                        <option value="ukg">UKG</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label>Message / Queries</label>
+                                <textarea rows="4" placeholder="How can we help you?"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Enquiry</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <img src="assets/logo.svg" alt="Beekind Logo" style="height: 50px; margin-bottom: 20px; filter: brightness(0) invert(1);">
+                    <p style="opacity: 0.7; font-size: 0.9rem;">Building strong academic foundations and creativity in young learners since 2015.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="academics.html">Academics</a></li>
+                        <li><a href="facilities.html">Facilities</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Programs</h4>
+                    <ul class="footer-links">
+                        <li><a href="academics.html#playgroup">Playgroup</a></li>
+                        <li><a href="academics.html#nursery">Nursery</a></li>
+                        <li><a href="academics.html#lkg">LKG</a></li>
+                        <li><a href="academics.html#ukg">UKG</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <ul style="opacity: 0.7; font-size: 0.9rem;">
+                        <li style="margin-bottom: 10px;"><i class="fas fa-phone" style="margin-right: 10px; color: var(--accent-color);"></i> +1 (234) 567-890</li>
+                        <li style="margin-bottom: 10px;"><i class="fas fa-envelope" style="margin-right: 10px; color: var(--accent-color);"></i> info@beekind.com</li>
+                        <li><i class="fas fa-map-marker-alt" style="margin-right: 10px; color: var(--accent-color);"></i> Academic Lane, City</li>
+                    </ul>
+                    <div style="display: flex; gap: 15px; margin-top: 20px;">
+                        <a href="#" style="font-size: 1.2rem; color: white;"><i class="fab fa-facebook"></i></a>
+                        <a href="#" style="font-size: 1.2rem; color: white;"><i class="fab fa-instagram"></i></a>
+                        <a href="#" style="font-size: 1.2rem; color: white;"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2026 Beekind Pre School. All Rights Reserved. | Website designed & developed by <a href="https://xpensivemedia.vercel.app" target="_blank" style="color: var(--accent-color); font-weight: 600;">Xpensive Media</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

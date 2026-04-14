@@ -1,0 +1,10 @@
+<svg width="240" height="60" viewBox="0 0 240 60" xmlns="http://www.w3.org/2000/svg">
+  <!-- Icon: Stylized Hexagon/Bee theme -->
+  <path d="M15 15L25 10L35 15V25L25 30L15 25V15Z" fill="#D4AF37" />
+  <path d="M25 18C25 18 27 16 29 18C31 20 29 22 29 22M21 22C21 22 19 20 21 18C23 16 25 18 25 18" fill="none" stroke="#0B3C5D" stroke-width="1.5" stroke-linecap="round"/>
+  
+  <!-- Text: Beekind -->
+  <text x="50" y="32" font-family="'Playfair Display', serif" font-weight="700" font-size="28" fill="#0B3C5D">Beekind</text>
+  <!-- Subtext: Pre School -->
+  <text x="50" y="48" font-family="'Inter', sans-serif" font-weight="500" font-size="12" letter-spacing="2" fill="#D4AF37" text-transform="uppercase">PRE SCHOOL</text>
+</svg>
